@@ -225,7 +225,7 @@ def sortperm_neurons(bkgd_log_proportions_array,config,neuron_response_df, seque
     return indexes,ordered_preferred_type
 
 # Function to find corresponding number in another column
-def find_corresponding(nums):
+def find_corresponding(nums,df_dict):
     return [df_dict[num] for num in nums]
 
 def split_list(nums):
