@@ -19,8 +19,8 @@ This repository includes:
 
 Ensure you have the following software installed:
 - [Git](https://git-scm.com/)
-- [Python](https://www.python.org/downloads/)  (Version used: 3.8.16)
-- Necessary Python libraries (listed in `requirements.txt`) 
+- [Python](https://www.python.org/downloads/)  (Version used: 3.10.18)
+- Necessary Python libraries: see environment YAML 
 
 ### Installation
 
@@ -38,7 +38,7 @@ Download the data file from [[this link](https://figshare.com/s/35340aa23920ba25
    ```bash
    cd your-repo-name
 
-4. **Install the required Python packages:**
+4. **Install the required Python packages or install the provided environment YAML:**
   
     ```bash
     pip install -r requirements.txt
@@ -48,10 +48,11 @@ Reproducing the Main Figures
 To reproduce the main figures and statistics from the publication, run the tidied notebook scripts in the scripts directory. Each script corresponds to a specific figure in the paper.
 
 ## Preprocessing
-For those interested in the preprocessing and analysis steps, the 'other' directory contains scripts containing preprocessing and untidied analysis. These scripts were used to prepare the data for the main analysis but are not very user firendly. Because of online storage space limitations a partial dataset is shared. The full extendend data set is available on request.
+For those interested in the preprocessing and analysis steps, the 'other' directory contains scripts containing preprocessing. Due to storage space limitations partial example data is shared. The full data set is available on request.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Copyright 2025 Emmett Thompson, University College London
+
 
